@@ -1,0 +1,57 @@
+{
+  "id": "downtime-master",
+  "title": "Downtime Master",
+  "description": "A comprehensive downtime management system for D&D 5e by Pacts & Polyhedrals. Crafting workbench, training, resource ledger, faction relations, monster harvesting, magic shops, boons, scribing, loot chests, GM request dashboard, and more. Push panels directly to player screens. Free to use \u2014 made with \u2764 by DM Asmo.\n\n\ud83c\udfb2 Join us on Patreon: https://www.patreon.com/cw/pactsandpolyhedrals\n\ud83c\udfae Book a game: https://startplaying.games/gm/dmasmo",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "DM Asmo \u2014 Pacts & Polyhedrals",
+      "url": "https://startplaying.games/gm/dmasmo",
+      "patreon": "https://www.patreon.com/cw/pactsandpolyhedrals"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/dracouroboros.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "4.4.4"
+        }
+      }
+    ]
+  },
+  "manifest": "https://github.com/pacts-and-polyhedrals/downtime-master/releases/latest/download/module.json",
+  "download": "https://github.com/pacts-and-polyhedrals/downtime-master/releases/latest/download/module.zip",
+  "readme": "https://github.com/pacts-and-polyhedrals/downtime-master/blob/main/README.md",
+  "bugs": "https://github.com/pacts-and-polyhedrals/downtime-master/issues",
+  "changelog": "https://github.com/pacts-and-polyhedrals/downtime-master/releases",
+  "license": "MIT",
+  "socket": true,
+  "url": "https://github.com/pacts-and-polyhedrals/downtime-master",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/pacts-and-polyhedrals/downtime-master/main/assets/cover.png"
+    }
+  ]
+}
