@@ -56,8 +56,8 @@ https://github.com/pacts-and-polyhedrals/downtime-master/releases/latest/downloa
 ```
 Paste this into Foundry's "Install Module" dialog.
 
-**Method 2 — Manual**
-Download the latest `module.zip` from [Releases](https://github.com/pacts-and-polyhedrals/downtime-master/releases) and extract into your `modules/` folder.
+**Method 2 — Foundry Module Search**
+Open Foundry's "Install Module" dialog, search for **Downtime Master**, and install it directly from the official Foundry VTT module listing.
 
 ---
 
